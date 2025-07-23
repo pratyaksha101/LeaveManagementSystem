@@ -1,0 +1,149 @@
+[
+  {
+    "ContainingType": "LeaveManagementSystemnew.Controllers.EmployeeController",
+    "Method": "AddEmployee",
+    "RelativePath": "api/controller/AddEmployees",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emp",
+        "Type": "LeaveManagementSystemnew.Models.Employee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagementSystemnew.Controllers.EmployeeController",
+    "Method": "DeleteEmployee",
+    "RelativePath": "api/controller/DeleteEmployee/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "emp",
+        "Type": "LeaveManagementSystemnew.Models.Employee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagementSystemnew.Controllers.EmployeeController",
+    "Method": "GetEmployee",
+    "RelativePath": "api/controller/GetAllEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagementSystemnew.Controllers.EmployeeController",
+    "Method": "UpdateEmployee",
+    "RelativePath": "api/controller/UpdateEmployee/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "emp",
+        "Type": "LeaveManagementSystemnew.Models.Employee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagementSystem.Controllers.LeaveRequestController",
+    "Method": "ApproveLeaveRequest",
+    "RelativePath": "api/LeaveRequest/approve/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagementSystem.Controllers.LeaveRequestController",
+    "Method": "CreateLeaveRequet",
+    "RelativePath": "api/LeaveRequest/CreateLeaveRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LeaveManagementSystemnew.Models.LeaveRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagementSystem.Controllers.LeaveRequestController",
+    "Method": "GetAllLeaveRequets",
+    "RelativePath": "api/LeaveRequest/GetAllLeaveRequests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagementSystem.Controllers.LeaveRequestController",
+    "Method": "RejectLeaveRequest",
+    "RelativePath": "api/LeaveRequest/reject/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeaveManagemenrSystemnew.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LeaveManagemenrSystemnew.WeatherForecast, LeaveManagemenrSystemnew, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
